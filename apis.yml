@@ -1,8 +1,20 @@
 aid: onebrief
 name: Onebrief
-description: Onebrief is a company surfaced as a portfolio company of battery-ventures, general-catalyst,
-  insight-partners, sapphire-ventures and added to the API Evangelist network as a stub for enrichment.
-  This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Onebrief is a defense-technology company building a unified command workspace
+  for military planning, decision-making, and staff collaboration. The web-based
+  platform centralizes live, synchronized operational data into reusable "Cards"
+  that produce C2 charts, maps, timelines, presentations, documents, and
+  whiteboards from live data rather than static content, with doctrine-aware AI
+  assistance (built on Anthropic Claude) that anticipates dependencies and
+  surfaces critical information early. In August 2024 Onebrief launched a
+  policy-aware, versioned API that accepts data in common DoD formats and connects
+  key mission systems such as Maven Smart System and Advana into a live, shared
+  mission picture, supporting bidirectional data flow across classified and
+  unclassified networks (SIPR, NIPR, JWICS) in alignment with JADC2 data
+  interoperability goals. Backed by Battery Ventures, General Catalyst, Insight
+  Partners, and Sapphire Ventures. The API is a government-deployed product with
+  no public developer portal, specification, or self-serve base URL.
 url: https://raw.githubusercontent.com/api-evangelist/onebrief/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +25,32 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/6683e954c07d4cb25e84cd8d/669c05a460c710804a385753_OG.jpg
 tags:
 - Company
+- Defense
+- Military
+- Command and Control
+- Decision Intelligence
+- Planning
+- Collaboration
+- Data Interoperability
+- JADC2
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +60,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.onebrief.com/
+- type: Documentation
+  url: https://www.onebrief.com/platform/features
+- type: Support
+  url: https://www.onebrief.com/support
+- type: Blog
+  url: https://www.onebrief.com/media-center
+- type: GitHubOrganization
+  url: https://github.com/Onebrief
+- type: TermsOfService
+  url: https://www.onebrief.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.onebrief.com/privacy-policy
+- type: DomainSecurity
+  url: security/onebrief-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
